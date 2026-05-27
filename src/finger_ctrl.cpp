@@ -28,6 +28,8 @@ int finger_read() {
   p = finger.fingerSearch();
   if (p == FINGERPRINT_OK) {
     return finger.fingerID; // Vân tay hợp lệ, trả về ID (1, 2, 3...)
+  } else if (p == FINGERPRINT_NOTFOUND) {
+    return -2; // KẺ GIAN: Có vân tay đè lên nhưng không khớp dữ liệu -> Báo -2
   }
   return -1; // Vân tay sai
 }

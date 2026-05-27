@@ -27,10 +27,10 @@ const byte PIN_COLUMN[COLUMN_NUM] = {25, 22, 12, 21};
 #define CAM_TRIGGER_PIN 15 
 
 // === THÔNG TIN MẠNG & TELEGRAM ===
-#define WIFI_SSID "NHAT TAN"         // <-- ĐIỀN TÊN WIFI VÀO ĐÂY
-#define WIFI_PASSWORD "khongbiet"        // <-- ĐIỀN PASS WIFI VÀO ĐÂY
-#define BOT_TOKEN "8591139124:AAG6kuyTAaDCkUufXdhHYws7O643zUZ3d2s"    // <-- ĐIỀN TOKEN CỦA BOT VÀO ĐÂY
-#define CHAT_ID "8616248241"                   // <-- ĐIỀN CHAT ID CỦA BẠN VÀO ĐÂY
+#define WIFI_SSID "iPhone 17"         // <-- ĐIỀN TÊN WIFI
+#define WIFI_PASSWORD "123456789101112"        // <-- ĐIỀN PASS WIFI 
+#define BOT_TOKEN "8591139124:AAG6kuyTAaDCkUufXdhHYws7O643zUZ3d2s"    // <-- ĐIỀN TOKEN CỦA BOT 
+#define CHAT_ID "8616248241"                   // <-- ĐIỀN CHAT ID 
 
 // Mật khẩu mặc định hệ thống
 const String MASTER_PASS = "123456";
